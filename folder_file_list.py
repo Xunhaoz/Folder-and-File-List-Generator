@@ -39,6 +39,7 @@ class Lister:
                 ignore_folders_files = filter(lambda x: x != '\n', ignore_folders_files)
                 ignore_folders_files = [x.replace('\n', '') for x in ignore_folders_files]
             ignore_folders_files.append('.gitignore')
+            ignore_folders_files.append('.git')
             self._ignore_folders_files = ignore_folders_files
         self._ignore_folders_files.append(os.path.basename(__file__))
 

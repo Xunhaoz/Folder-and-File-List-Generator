@@ -11,7 +11,9 @@ listed in the .gitignore file and the script file itself.
 
 ## Usage
 
+```shell
 python folder_file_list.py
+```
 
 ## Output
 
